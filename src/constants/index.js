@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  dashd,
   threejs,
 } from "../assets"
 
@@ -261,6 +262,27 @@ const projects = [
     image: tripguide,
     source_code_link:
       "https://github.com/Zast96/Bootstrap-Projects/tree/main/Weather%20Project",
+  },
+  {
+    name: "Syncfusion Dashboard",
+    description:
+      "A cool dashboard that will cover all your needs if you manage an e-shop. Amazing charts are included, as well as other cool utilities.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dashboard",
+        color: "green-text-gradient",
+      },
+      {
+        name: "utilities",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashd,
+    source_code_link: "https://github.com/Zast96/syncfusion_dashboard",
   },
 ]
 

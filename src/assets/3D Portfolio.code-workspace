@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "editor.colorDecorators": true,
+    "editor.defaultColorDecorators": false,
+    "window.autoDetectColorScheme": false,
+    "editor.colorDecoratorsActivatedOn": "clickAndHover"
+  }
+}
