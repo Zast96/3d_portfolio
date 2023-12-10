@@ -243,12 +243,12 @@ const projects = [
     source_code_link: 'https://github.com/Zast96/traveling_site',
   },
   {
-    name: 'BlockBuster Site',
+    name: 'NFT Site',
     description:
-      'A small concept for a movie reviews website. The perfect example of semplicity and clearliness. This layout would have been perfect if BlockBuster was still alive.',
+      'A small concept for an NFT marketplace. The perfect example of semplicity and clearliness. This layout is perfect if you wanna buy NFTs.',
     tags: [
       {
-        name: 'html',
+        name: 'react-native',
         color: 'blue-text-gradient',
       },
       {
@@ -256,12 +256,12 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'ui',
+        name: 'mobile-app',
         color: 'pink-text-gradient',
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/Zast96/movies_site',
+    source_code_link: 'https://github.com/Zast96/nft_site',
   },
   {
     name: 'Syncfusion Dashboard',
