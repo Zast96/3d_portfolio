@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-4 rounded-2xl sm:w-[360px] w-full '
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -62,6 +62,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+// eslint-disable-next-line react-refresh/only-export-components
 const Works = () => {
   return (
     <>
@@ -92,4 +93,5 @@ const Works = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Works, '');
