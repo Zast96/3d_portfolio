@@ -22,6 +22,7 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
 import meta from './company/meta.png';
+import diggit from './company/diggit.png';
 import shopify from './company/shopify.png';
 import immagine from './company/immagine.png';
 import tesla from './company/tesla.png';
@@ -56,6 +57,7 @@ export {
   typescript,
   threejs,
   meta,
+  diggit,
   shopify,
   immagine,
   tesla,

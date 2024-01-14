@@ -18,6 +18,7 @@ import {
   meta,
   immagine,
   tesla,
+  diggit,
   shopify,
   carrent,
   jobit,
@@ -27,7 +28,7 @@ import {
   gym,
   threejs,
 } from '../assets';
-
+//prettier-ignore
 export const navLinks = [
   {
     id: 'about',
@@ -170,9 +171,22 @@ const experiences = [
       'These experiences significantly elevated my skills, equipping me to excel in the tech industry.',
     ],
   },
+  {
+    title: 'Front End Talent',
+    company_name: 'Diggit',
+    icon: diggit,
+    iconBg: '#E6DEDD',
+    date: 'Apr 2023 - Present',
+    points: [
+      "Spearheaded participation in DIGGIT's transformative challenge, undergoing a comprehensive evaluation that not only assessed technical competencies but also provided invaluable insights into soft skills.",
+      'Applied personalized feedback strategically to refine professional abilities, resulting in a significant and well-documented growth trajectory both as a developer and an individual.',
+      "Developed and honed effective communication and collaboration skills under DIGGIT's mentorship, demonstrating a nuanced approach to teamwork and interpersonal dynamics.",
+      'Executed recommendations that led to a substantial transformation of the professional portfolio, showcasing heightened proficiency, successful project development, and alignment with key milestones in my career development.',
+    ],
+  },
 ];
 
-const testimonials = [
+/*const testimonials = [
   {
     testimonial:
       'I thought it was impossible to make a website as beautiful as our product, but Davide proved me wrong.',
@@ -197,7 +211,7 @@ const testimonials = [
     company: '456 Enterprises',
     image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
-];
+];*/
 
 const projects = [
   {
@@ -328,4 +342,4 @@ const projects = [
   },
 ];
 
-export {services, technologies, experiences, testimonials, projects};
+export {services, technologies, experiences, /*testimonials,*/ projects};
