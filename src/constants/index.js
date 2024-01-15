@@ -172,7 +172,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Front End Talent',
+    title: 'Front End Program',
     company_name: 'Diggit',
     icon: diggit,
     iconBg: '#E6DEDD',
